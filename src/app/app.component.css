@@ -1,0 +1,53 @@
+:host {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    padding: 1em;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+    color: dodgerblue;
+    font-family: cursive;
+}
+
+.input {
+    width: 100%;
+}
+
+.info {
+    margin-left: 0.5em;
+    font-family: monospace;
+}
+
+.button {
+    margin-top: 1em;
+}
+
+.button:last-of-type {
+    margin-left: 1em;
+}
+
+.timer {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: darkorange;
+    font-family: monospace;
+}
+
+.timer.done {
+    color: green;
+}
+
+.character.match {
+    background-color: limegreen;
+}
+
+.character.diff {
+    background-color: indianred;
+}
